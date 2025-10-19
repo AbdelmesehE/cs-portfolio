@@ -35,4 +35,4 @@ Being a good team member means communicating clearly, helping teammates solve pr
 
 ## 👥 Instructor Access
 **Access Method:** Public Repository  
-**Instructor:** Added as collaborator (if required)
+**Instructor:** Added as collaborator
