@@ -70,3 +70,23 @@ I interpreted the user’s needs by focusing on the core gameplay requirements a
 
 **6. How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application?**  
 I approached the design by first analyzing requirements, identifying constraints, and then mapping those requirements to appropriate design patterns and architectural decisions. In the future, I would continue using techniques such as UML modeling, iterative refinement, and early evaluation of operating platforms to ensure scalability and maintainability before implementation begins.
+
+
+
+## CS 255 – System Analysis and Design Portfolio Reflection
+
+### DriverPass Project Summary
+The DriverPass project was created for a client named DriverPass, a company that offers driver education services and prepares students for DMV written and road exams. The client requested the design of a web-based information system that would centralize their operations and improve student success rates. The system needed to allow students to register, purchase training packages, schedule on-the-road driving lessons, and complete online practice exams based on current DMV rules. In addition, the system was required to support multiple user roles, including students, a secretary, an owner, and an IT officer, each with specific permissions and responsibilities.
+
+### What I Did Well
+One of my strongest contributions to this project was developing a clear and well-organized business requirements document. I effectively translated the client’s needs into detailed functional and nonfunctional requirements, including performance expectations, security controls, and platform constraints. I also did well in identifying system components such as scheduling, reporting, audit logging, and role-based access control. This structured approach made it easier to create consistent UML diagrams and a system design that aligned closely with the client’s goals.
+
+### Area for Improvement
+If I were to revise one part of my work, I would enhance the UML diagrams by adding more detailed explanations and alternative process flows. While the diagrams accurately represent the main system behaviors, additional detail would improve communication with developers and stakeholders by clarifying edge cases, exception handling, and system dependencies.
+
+### Interpreting and Implementing User Needs
+I interpreted the user’s needs by carefully reviewing the interview transcript and identifying key challenges faced by DriverPass, such as scheduling inefficiencies, lack of centralized data management, limited progress tracking, and security concerns. These needs were implemented into the system design through features such as role-based permissions, audit logs for reservation changes, integrated lesson scheduling, and online testing modules. Considering user needs is critical in system design because a solution that does not reflect real user workflows can lead to poor adoption, errors, and reduced business value.
+
+### My Approach to Software Design
+My approach to designing software begins with thoroughly understanding stakeholder requirements and constraints. I then break the system into logical components and use modeling techniques such as use case diagrams, activity diagrams, sequence diagrams, and class diagrams to visualize system behavior before implementation. In future projects, I plan to continue using iterative analysis, stakeholder feedback, and documentation-driven design to ensure systems are scalable, secure, and aligned with business objectives.
+
