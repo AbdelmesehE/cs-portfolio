@@ -131,3 +131,34 @@ CS320_ProjectOne/
 ├── ContactServiceTest.java
 └── ContactTest.java
 CS320_Project 2.docx
+
+## CS-305: Artemis Financial – Practices for Secure Software (Project Two)
+
+### 1. Briefly summarize your client, Artemis Financial, and its software requirements. Who was the client? What issue did the company want you to address?
+
+Artemis Financial is a financial services company that handles sensitive client information and secure financial transactions. Their main requirement was to protect data transmitted through their web application using strong encryption and modern secure communication standards. They needed a secure hashing solution for verifying data integrity and a properly configured HTTPS environment to protect confidentiality. My task was to analyze their existing application, implement secure communication using TLS, generate cryptographic certificates, and demonstrate safe hashing and secure coding practices.
+
+### 2. What did you do well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall well-being?
+
+I did well identifying weak areas in the application’s configuration and implementing modern cryptographic algorithms like SHA-256. I also configured HTTPS properly with a PKCS12 keystore and used secure TLS communication. Coding securely is crucial because it protects against data breaches, loss of customer trust, and regulatory penalties. Strong software security supports stability, compliance, and long-term business success, especially in industries that handle financial data.
+
+### 3. Which part of the vulnerability assessment was challenging or helpful to you?
+
+The most challenging part was working with the OWASP Dependency-Check tool, especially since the National Vulnerability Database now requires API keys for updates. Although the scan didn’t fully complete, it helped me understand how dependency scanning works in a real DevSecOps environment and how security tools integrate with build processes. It also helped me recognize the importance of keeping third-party libraries updated to prevent known CVEs.
+
+### 4. How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
+
+I increased layers of security by implementing SHA-256 hashing, configuring HTTPS/TLS encryption, generating a secure certificate, and isolating cryptography logic into a dedicated controller. I also ensured the application rejected insecure HTTP and tested the integrity of the hashing endpoint. In the future, I would use tools like OWASP Dependency-Check, static analysis tools, vulnerability databases, and industry frameworks such as the OWASP Top 10 and NIST guidelines. I would prioritize vulnerabilities based on risk to confidentiality, integrity, and availability.
+
+### 5. How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
+
+I tested functionality by running the application over HTTPS and verifying that the `/hash` endpoint produced consistent, correct SHA-256 hashes. I confirmed that the keystore and certificate were loaded correctly, and the application responded securely on port 8443. After refactoring, I reran the dependency scanner, reviewed the code for security risks, and retested all functionality. This confirmed that the application worked correctly and that no new vulnerabilities were introduced during development.
+
+### 6. What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
+
+I used Java’s MessageDigest, SHA-256 hashing, TLS configuration, PKCS12 keystores, X.509 certificates, and the OWASP Dependency-Check plug-in. I followed best practices like separation of concerns, avoiding hard-coded secrets, and using vetted cryptographic algorithms. These tools and practices will be valuable in future courses and real-world secure software development.
+
+### 7. Employers sometimes ask for examples of work you have successfully completed. What might you show future employers from this assignment?
+
+I can show employers the secure software practices report, the code demonstrating SHA-256 hashing, the HTTPS/TLS configuration, and the dependency scanning setup. This assignment demonstrates my ability to implement secure communication, use modern cryptography, configure certificates, identify security risks, and follow industry best practices — all skills that employers look for in software engineering and cybersecurity roles.
+
