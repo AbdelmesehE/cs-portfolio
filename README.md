@@ -162,3 +162,82 @@ I used Java’s MessageDigest, SHA-256 hashing, TLS configuration, PKCS12 keysto
 
 I can show employers the secure software practices report, the code demonstrating SHA-256 hashing, the HTTPS/TLS configuration, and the dependency scanning setup. This assignment demonstrates my ability to implement secure communication, use modern cryptography, configure certificates, identify security risks, and follow industry best practices — all skills that employers look for in software engineering and cybersecurity roles.
 
+
+
+## CS-300: Data Structures and Algorithms  
+###  Reflection (Developer-Focused Summary)
+
+---
+
+###  Project Overview
+
+#### **Project One**
+Analyzed performance characteristics of three core data structures:
+
+```txt
+vector
+hash_table
+binary_search_tree (BST)
+```
+
+Key evaluations:
+- Insertion, search, and traversal run-time differences  
+- Memory usage and scalability behavior  
+- Big-O comparison for increasing dataset sizes  
+
+#### **Project Two**
+Implemented a complete course-planner system featuring:
+
+```txt
+✓ CSV file parsing  
+✓ BST insert/search operations  
+✓ In-order traversal → alphanumeric sorted output  
+✓ Prerequisite lookup functionality  
+```
+
+---
+
+###  How I Approached the Problems
+
+- Decomposed the application into stages:  
+  `parse → build structure → search → print`
+- Chose data structures based on **operational cost + constraints**
+- Used **recursion** for all BST operations (`insert`, `search`, `traverse`)
+- Validated each feature using incremental testing and print tracing  
+
+---
+
+###  Roadblocks & How I Solved Them
+
+#### **CSV Parsing**
+- Resolved malformed rows by validating tokens  
+- Implemented reliable parsing using `stringstream`  
+
+#### **BST Logic Issues**
+- Debugged pointer flow using step-by-step console output  
+- Validated left/right branch correctness before adding next feature  
+
+#### **Data Organization**
+- Refactored code into reusable modules for clarity & scalability  
+- Ensured each function had a single responsibility  
+
+---
+
+###  How This Project Improved My Software Design Skills
+
+- Learned to **select data structures intentionally**, not by habit  
+- Applied Big-O thinking **during** design instead of afterwards  
+- Shifted from “just working” code → **efficient, scalable architecture**
+
+---
+
+###  How This Project Improved Code Quality
+
+- Wrote cleaner, modular, and more maintainable functions  
+- Used clearer naming conventions for readability  
+- Designed the codebase so new features can be added without rewriting existing logic  
+- Adopted adaptable and organized design patterns suitable for larger systems  
+
+---
+  
+    
