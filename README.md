@@ -90,3 +90,44 @@ I interpreted the user’s needs by carefully reviewing the interview transcript
 ### My Approach to Software Design
 My approach to designing software begins with thoroughly understanding stakeholder requirements and constraints. I then break the system into logical components and use modeling techniques such as use case diagrams, activity diagrams, sequence diagrams, and class diagrams to visualize system behavior before implementation. In future projects, I plan to continue using iterative analysis, stakeholder feedback, and documentation-driven design to ensure systems are scalable, secure, and aligned with business objectives.
 
+
+# CS Portfolio — CS 320 Module Eight Journal
+
+**Course:** CS-320: Software Testing and Automation  
+**Artifact:** Contact Service Classes & Summary/Reflections Report  
+**Student:** Ehab Abdelmeseh  
+**Date:** 02/28/2026  
+
+##  Artifact
+
+**Project One Artifacts (Contact Service):**  
+- `Contact.java`  
+- `ContactService.java`  
+- `ContactTest.java`  
+- `ContactServiceTest.java`  
+
+**Project Two Artifact:**  
+- `CS320_Project 2.docx`
+
+## Reflection (Essential Questions)
+### 1. How can I ensure that my code, program, or software is functional and secure?
+
+To ensure functionality, I rely on thorough unit testing, test-driven development principles, and validation of all inputs. Writing automated JUnit tests helped me confirm that every method performed as expected and exposed issues early before integration. To ensure security, I focus on restricting invalid data, handling errors safely, and maintaining good coding practices that prevent vulnerabilities such as unsafe input handling or unintended data exposure. Secure coding and complete test coverage together ensure that the software behaves correctly and safely.
+
+### 2. How do I interpret user needs and incorporate them into a program?
+
+I interpret user needs by reviewing requirements and translating them into clear, testable behaviors. For the Contact Service project, requirements such as maximum field lengths and non-null constraints were turned into specific validation rules and test cases. User needs are incorporated by ensuring every requirement maps to functionality in the code and a test that verifies it. This approach ensures my implementation remains aligned with what the user expects the system to do.
+
+### 3. How do I approach designing software?
+
+My approach to software design begins with understanding the requirements and breaking the solution into small, modular components. For CS-320, this meant creating separate classes for data representation, business logic, and testing. I rely on clean code principles, encapsulation, and reusable methods to keep the design simple and maintainable. Going forward, I will continue using iterative refinement, continuous testing, and modular design so that the software remains reliable, scalable, and easy to update.
+
+## 🗂️ Repository Structure (for this course)
+CS320_ProjectOne/
+└── src/
+└── contact/
+├── Contact.java
+├── ContactService.java
+├── ContactServiceTest.java
+└── ContactTest.java
+CS320_Project 2.docx
