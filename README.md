@@ -240,4 +240,41 @@ Implemented a complete course-planner system featuring:
 
 ---
   
+# CS Portfolio — CS 360 Module Eight Journal
+
+**Course:** CS-360: Mobile Architecture and Programming
+**Artifact:** Project Three App Code Design (ZIP)
+**Student:** Ehab Abdelmeseh
+**Date:** April 2026
+
+## 🔗 Artifact
+- [Project Three App Code Design](Ehab_Abdelmeseh_InventoryApp_LaunchPlan.zip)
+
+---
+
+## 🧠 Reflection
+
+### 1. Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
+
+The goal of this application was to design and develop a functional mobile app that allows users to efficiently manage and interact with data. The app was built to address user needs such as ease of navigation, accessibility, and reliable data handling. By focusing on simplicity and usability, the app ensures users can complete tasks quickly and without confusion.
+
+### 2. What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
+
+The application included essential screens such as a login screen, a main dashboard, and data interaction screens. Features included user input validation, clear navigation, and structured layouts. The UI was designed with a user-centered approach by keeping layouts clean, minimizing unnecessary steps, and ensuring readability. These design choices made the app intuitive and easy to use, contributing to its success.
+
+### 3. How did you approach the process of coding your app? What techniques or strategies did you use? How could those techniques or strategies be applied in the future?
+
+I approached the development process by breaking the application into smaller components and implementing features step by step. I used event-driven programming, modular design, and code reuse to maintain organization and efficiency. These strategies can be applied in future projects to improve scalability, maintainability, and overall development speed.
+
+### 4. How did you test to ensure your code was functional? Why is this process important, and what did it reveal?
+
+I tested the application by running it in Android Studio and verifying each feature individually. I checked user inputs, navigation, and overall functionality to ensure everything worked as expected. Testing is critical because it helps identify bugs early and ensures a reliable user experience. This process revealed areas where additional validation and logic improvements were needed.
+
+### 5. Consider the full app design and development process from initial planning to finalization. Where did you have to innovate to overcome a challenge?
+
+One challenge was ensuring smooth data handling and consistent user interaction across multiple screens. I addressed this by refining the app’s logic and improving the flow between screens. This required adapting my design and thinking creatively to maintain a seamless user experience.
+
+### 6. In what specific component of your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
+
+I was particularly successful in designing the user interface and implementing interactive features. This demonstrated my ability to combine technical development skills with user-centered design principles to create a functional and intuitive mobile application.
     
