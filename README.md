@@ -240,7 +240,7 @@ Implemented a complete course-planner system featuring:
 
 ---
   
-# CS Portfolio — CS 360 Module Eight Journal
+# CS 360: Mobile Architecture and Programming
 
 **Course:** CS-360: Mobile Architecture and Programming
 **Artifact:** Project Three App Code Design (ZIP)
