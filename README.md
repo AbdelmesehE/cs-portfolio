@@ -277,4 +277,67 @@ One challenge was ensuring smooth data handling and consistent user interaction 
 ### 6. In what specific component of your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
 
 I was particularly successful in designing the user interface and implementing interactive features. This demonstrated my ability to combine technical development skills with user-centered design principles to create a functional and intuitive mobile application.
+
+# CS 330 Module Eight Portfolio
+
+## Overview
+This repository contains my final project for CS 330 – Computational Graphics and Visualization. The project demonstrates the development of an interactive 3D scene using C++ and OpenGL, incorporating object modeling, textures, lighting, and camera controls.
+
+---
+
+## 📂 Project Files
+
+You can access the project files below:
+
+- 🔹 **3D Scene Project**  
+  [Download 3D Scene](CS330_Module8_Portfolio/CS330_Module8_Portfolio/3D_Scene/Project.zip)
+
+- 🔹 **Design and Development Document**  
+  [Download Design Document](CS330_Module8_Portfolio/CS330_Module8_Portfolio/Design_Document/Design Decisions.docx)
+
+---
+
+## 🧠 Reflection
+
+### Designing Software
+I approach software design by first understanding the project requirements and breaking the problem into smaller components. For this 3D scene, I focused on identifying key objects and how they interact within the environment. Planning the structure early helped ensure a smoother development process.
+
+### Design Skills Developed
+This project strengthened my ability to design 3D environments using basic geometric shapes. I improved my understanding of spatial relationships, object composition, and how lighting and textures enhance realism.
+
+### Design Process
+I followed an iterative design process. I began with simple shapes and gradually added textures, lighting, and transformations. Continuous testing allowed me to refine the scene and improve visual quality.
+
+### Applying Design in Future Work
+The structured approach used in this project can be applied to future software development by breaking down complex systems and refining them step-by-step.
+
+---
+
+### Developing Programs
+I start development with a basic working version and then build on it incrementally. This ensures that core functionality works before adding complexity.
+
+### Development Strategies Used
+I used modular programming by separating rendering logic into functions for different objects. I also relied on testing and debugging to verify textures, lighting, and camera functionality.
+
+### Role of Iteration
+Iteration was essential. I repeatedly tested and adjusted elements such as lighting and textures to improve the final output.
+
+### Growth as a Developer
+Throughout the project, I improved my ability to organize code, debug issues efficiently, and think more critically about performance and structure.
+
+---
+
+### Computer Science and My Goals
+Computer science equips me with problem-solving and technical skills needed to build real-world applications. These skills support my long-term goal of becoming a software engineer.
+
+### Educational Impact
+This project introduced key graphics concepts such as transformations, rendering, and lighting, which will support future coursework in advanced programming and simulations.
+
+### Professional Impact
+The skills gained from computational graphics can be applied in industries like software development, gaming, and visualization. Understanding how to create interactive and visually engaging applications strengthens my overall technical skillset.
+
+---
+
+## ✅ Summary
+This project demonstrates my ability to design and develop a complete 3D scene using OpenGL and C++. It highlights my understanding of graphics programming, problem-solving, and structured software development.
     
