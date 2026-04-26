@@ -340,4 +340,51 @@ The skills gained from computational graphics can be applied in industries like 
 
 ## ✅ Summary
 This project demonstrates my ability to design and develop a complete 3D scene using OpenGL and C++. It highlights my understanding of graphics programming, problem-solving, and structured software development.
+
+
+
+# CS 340 – Module Eight Journal
+
+## Project Files
+
+- 📄 [Project Two Report (Word Document)](https://github.com/AbdelmesehE/cs-portfolio/blob/main/CS340_Module8_Portfolio/CS%20340%20Project%20Two.docx)
+- 💻 [Project Two Dashboard Code (ZIP)](https://github.com/AbdelmesehE/cs-portfolio/blob/main/CS340_Module8_Portfolio/ProjectTwoDashboard.zip)
+
+
+---
+
+## Overview
+This project demonstrates the development of a data-driven dashboard using MongoDB and Python. The goal was to support Grazioso Salvare by providing a system that allows efficient querying, filtering, and visualization of animal shelter data.
+
+---
+
+## Reflection
+
+### How do you write programs that are maintainable, readable, and adaptable?
+
+To write maintainable and readable programs, I focus on clear structure, proper naming conventions, and separating responsibilities within the code. In Project One, I developed a CRUD Python module that handled all database operations independently from the dashboard logic.
+
+This approach made the application more adaptable because any changes to the database layer could be made without modifying the dashboard code. It also improved readability and organization, making debugging and future updates easier.
+
+In the future, this CRUD module can be reused in other applications that require database connectivity, such as web apps, reporting tools, or automation scripts. This reduces development time and ensures consistency across projects.
+
+---
+
+### How do you approach a problem as a computer scientist?
+
+My approach begins with understanding the problem requirements and breaking them into smaller, manageable components. For the Grazioso Salvare project, I first analyzed the data requirements and identified how the database needed to be structured. Then I implemented the CRUD functionality before integrating it into the dashboard.
+
+This project differed from earlier assignments because it required combining multiple technologies, including MongoDB, Python, and dashboard visualization tools. It was more focused on real-world application rather than isolated tasks.
+
+In the future, I will continue using a structured approach by planning the system design first, then building and testing each component step by step. This ensures accuracy and scalability when working on more complex systems.
+
+---
+
+### What do computer scientists do, and why does it matter?
+
+Computer scientists design and develop systems that help organizations manage data, automate processes, and make informed decisions. Their work is important because it improves efficiency, reduces errors, and enables businesses to operate more effectively.
+
+In this project, the dashboard helps Grazioso Salvare quickly analyze animal shelter data to identify suitable rescue animals. This improves their ability to make timely and accurate decisions, ultimately supporting their mission.
+
+This type of solution demonstrates how technology can directly impact real-world operations by transforming raw data into meaningful insights.
     
