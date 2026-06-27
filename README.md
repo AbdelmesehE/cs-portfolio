@@ -394,19 +394,20 @@ This type of solution demonstrates how technology can directly impact real-world
 
 ### Briefly explain the work that you did on this project. What code were you given? What code did you create yourself?
 
-For this project, I developed a pirate intelligent agent that learns to navigate a maze and find the treasure using reinforcement learning. The starter code provided the game environment, maze layout, helper functions, and the framework for training the agent. I was responsible for implementing the deep Q-learning algorithm, including the neural network training process, experience replay, action selection, and updating the Q-values. I also completed the code that trained the agent until it was able to consistently find the optimal path to the treasure.
+For this project, I developed a pirate intelligent agent that learns to navigate a maze and find the treasure using reinforcement learning. The starter code provided the game environment, maze layout, helper functions, and the overall framework for training the agent. I was responsible for implementing the Deep Q-Learning algorithm, including the neural network training process, experience replay, action selection, and updating the Q-values. I also completed and tested the training code until the agent consistently learned the optimal path to the treasure.
 
 ### What do computer scientists do and why does it matter?
 
-Computer scientists solve problems by designing algorithms, creating software, and developing systems that improve how people work and interact with technology. Their work matters because software is used in nearly every part of modern life, including healthcare, education, finance, transportation, and communication. By creating efficient, reliable, and secure systems, computer scientists help organizations and individuals solve real-world problems.
+Computer scientists solve problems by designing algorithms, developing software, and creating systems that improve how people live and work. Their work is important because technology plays a major role in healthcare, education, finance, transportation, communication, and many other industries. By building efficient, reliable, and secure software, computer scientists help organizations operate more effectively while improving everyday life for users.
 
 ### How do I approach a problem as a computer scientist?
 
-I approach problems by first understanding the requirements and breaking the problem into smaller, manageable tasks. I analyze the available information, choose appropriate algorithms and data structures, implement a solution, and then test and refine it until it works correctly. During this project, I learned the importance of experimentation, debugging, and evaluating the performance of a machine learning model to improve its accuracy over time.
+I approach problems by first understanding the requirements and breaking the problem into smaller, manageable tasks. I analyze the available information, select appropriate algorithms and data structures, implement a solution, and then test and refine it until it works correctly. During this project, I learned the importance of experimentation, debugging, and evaluating the performance of a reinforcement learning model. Testing different parameters and monitoring the agent's performance helped me improve the model until it successfully completed the maze.
 
 ### What are my ethical responsibilities to the end user and the organization?
 
-As a computer scientist, I have a responsibility to develop software that is accurate, secure, reliable, and fair. I must protect user privacy, avoid introducing bias into software and artificial intelligence systems, and ensure that my work follows ethical and professional standards. I also have a responsibility to create solutions that meet organizational goals while considering their impact on users and society.
+As a computer scientist, I have a responsibility to develop software that is accurate, secure, reliable, and fair. I must protect user privacy, write code that minimizes errors and security risks, and avoid introducing unnecessary bias into artificial intelligence systems. I also have a responsibility to follow professional and ethical standards while creating solutions that meet organizational goals and consider their impact on users and society.
+
 
 
 
